@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 from pathlib import Path
 
-RAW_PATH = Path("Working file Employer Branding.xlsx")
+RAW_PATH = Path("data/raw/employer_branding_original.xlsx")
 
 df = pd.read_excel(RAW_PATH)
 
